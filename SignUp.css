@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .form-wrapper {
+    background: white;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .form-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 10px 0;
+  }
+  
+  .toggle-buttons button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .toggle-buttons button.active {
+    background: white;
+    color: #2575fc;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  
+  .form-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-content.hidden {
+    display: none;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #2a5298;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    border-color: #6a11cb;
+  }
+  
+  .btn {
+    width: 80%;
+    padding: 10px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+  }
+  
